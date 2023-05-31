@@ -73,9 +73,6 @@ ul.navbar > a:hover::after{
     transform: scaleX(1);
     transform-origin: bottom left;
 }
-h1{
-    font-size: 5.40em;
-}
 .bag{
     align-items: center;
     place-self: center;
@@ -128,8 +125,12 @@ img[alt~=bigmac]{
     color: var(--yellow);
 }
 .prices{
-    justify-content: space-between;
+    display: flex;
     align-items: center;
+    gap: 44px;
+    justify-content: center;
+    padding-top: 4%;
+    padding-right: 60%;
 }
 .price{
     color: var(--white);
@@ -140,6 +141,14 @@ img[alt~=bigmac]{
     color: var(--brown);
     font-size: 24px;
     text-decoration: line-through;
+}
+.botaoarea{
+    display: flex;
+    align-items: center;
+    gap: 34px;
+    justify-content: center;
+    padding-top: 4%;
+    padding-right: 60%;
 }
 button {
     appearance: none;
