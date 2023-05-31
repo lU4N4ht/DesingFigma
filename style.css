@@ -12,6 +12,7 @@
 body{
     background-color: var(--red);
     background-size: cover;
+    overflow: hidden;
     height: 100vh;
     width: 100vw;
     font-family: 'Quicksand', sans-serif;
@@ -19,7 +20,7 @@ body{
     grid-template-rows: 100px 1fr 100px;
     padding-left: 104px;
     padding-right: 104px;
-    padding-top: 40px
+    padding-top: 40px;
 }
 header{
     gap: 94px;
@@ -88,47 +89,67 @@ img[alt~=bag]{
     transform: scale(1.2);
     transition: 0.4s ease;
 }
+
 main{
-    padding-top: 130px;
+    text-decoration: none;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+img[alt~=bigmac]{
+    width: 875px;
+    height: 733px;
+}
+#contentarea{ 
+    padding-bottom: 15%;
+    width: 100%;
 }
 .subtitulo{
-    
     color: var(--white);
     letter-spacing: 0.1em;
     font-weight: 700;
-    height: 33px;
+    font-size: 26px; 
 }
-.titulo2{
+.titulos{
+   white-space: nowrap;
+   align-items: flex-end;
+   color:var(--white);
+   font-weight: 700;
+   font-size: 10em;
+   cursor: pointer;
+}
+#mac{
     color: var(--yellow);
 }
-.titulo1{
-    color:var(--white);
+.price{
+    color: var(--white);
+    font-weight: 700;
+    font-size: 44px;
 }
-/*.navegar{
-    display: inline-flex;
-    list-style: none;
-    height: 12px;
-    width: 100%;
-    justify-content: center;
-  }
-  .navegar .circulo {
+#bigger{
+    color: var(--brown);
+    font-weight: 700;
+    font-size: 24px;
+}
+footer{
+    padding-left: 51%;
     position: relative;
-    background: #fff;
-    border-radius: 50%;
-    margin: 10px;
-    width: 50px;
-    height: 50px;
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    gap: 27px;
+    padding-bottom: 5%;
+}
+.button{
+    background-color: var(--brown);
+    border-radius: 50%;
+    width: 23px;
+    height: 23px;
     cursor: pointer;
-    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  }
-  .navegar .ciruclo:hover {
-    top: -45px;
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
-  }*/
+}
+.button:hover {
+    background-color: var(--yellow);
+    transition: 0.4s ease;
+}
+
