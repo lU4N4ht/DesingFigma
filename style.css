@@ -18,12 +18,12 @@ body{
     font-family: 'Quicksand', sans-serif;
     display: grid;
     grid-template-rows: 100px 1fr 100px;
-    padding-left: 104px;
-    padding-right: 104px;
-    padding-top: 40px;
+    padding-left: 6.5em;
+    padding-right: 6.5em;
+    padding-top: 2.5em;
 }
 header{
-    gap: 94px;
+    gap: 5.875em;
     position: relative;
     display: flex;
     font-size: 2rem;
@@ -34,14 +34,14 @@ header{
     place-self: center;
 }
 img[alt~=logoicone]{
-    width: 65px;
-    height: 65px;
+    width: 4.0625em;
+    height: 4.0625em;
 }
 .navbar{
     color: var(--white);
     font-weight: 500 ;
     display: flex;
-    gap: 140px;
+    gap: 8.75em;
     align-items: center;
 }
 ul.navbar > a{
@@ -49,7 +49,7 @@ ul.navbar > a{
     text-decoration: none;
     display: inline-block;
     position: relative;
-    font-size: 20px;
+    font-size: 1.25em;
     cursor: pointer;
     transition: 0.4s all ease;
 }
@@ -62,8 +62,8 @@ ul.navbar > a::after{
     position: absolute;
     width: 100%;
     transform: scaleX(0);
-    height: 2px;
-    bottom: -5px;
+    height: 0.125em;
+    bottom: -0.3125em;
     left: 0;
     transform-origin: bottom right;
     transition: transform 0.3s ease-out;
@@ -76,12 +76,12 @@ ul.navbar > a:hover::after{
 .bag{
     align-items: center;
     place-self: center;
-    padding-top: 20px;
+    padding-top: 1.25em;
     transition: 0.4s ease;
 }
 img[alt~=bag]{
-    width: 50px;
-    height: 50px;
+    width: 3.125em;
+    height: 3.125em;
 }
 .bag:hover{
     transform: scale(1.2);
@@ -100,8 +100,8 @@ main{
     height: 100%;
 }
 img[alt~=bigmac]{
-    width: 875px;
-    height: 733px;
+    width: 54.6875em;
+    height: 45.8125em;
     filter: drop-shadow(0px 15px 50px rgba(0, 0, 0, 0.5));
 }
 #contentarea{
@@ -113,14 +113,14 @@ img[alt~=bigmac]{
     color: var(--white);
     letter-spacing: 0.1em;
     font-weight: 700;
-    font-size: 26px; 
+    font-size: 1.625em; 
 }
 .titulos{
    white-space: nowrap;
    align-items: flex-end;
    color:var(--white);
    font-weight: 700;
-   font-size: 10em;
+   font-size: 6.875em;
 }
 #mac{
     color: var(--yellow);
@@ -128,7 +128,7 @@ img[alt~=bigmac]{
 .prices{
     display: flex;
     align-items: center;
-    gap: 44px;
+    gap: 2.75em;
     justify-content: center;
     padding-top: 4%;
     padding-right: 60%;
@@ -136,17 +136,17 @@ img[alt~=bigmac]{
 .price{
     color: var(--white);
     font-weight: 700;
-    font-size: 44px;
+    font-size: 2.75em;
 }
 #bigger{
     color: var(--brown);
-    font-size: 24px;
+    font-size: 1.5em;
     text-decoration: line-through;
 }
 .botaoarea{
     display: flex;
     align-items: center;
-    gap: 34px;
+    gap: 2.125em;
     justify-content: center;
     padding-top: 4%;
     padding-right: 60%;
@@ -154,18 +154,18 @@ img[alt~=bigmac]{
 button {
     appearance: none;
     background-color: transparent;
-    border: 3px solid var(--white);
-    border-radius: 50px;
+    border: 0.1875em solid var(--white);
+    border-radius: 3.125em;
     box-sizing: border-box;
     color: var(--white);
     cursor: pointer;
     display: inline-block;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 700;
     line-height: normal;
     margin: 0;
-    width: 180px;
-    height: 63px;
+    width: 11.25em;
+    height: 3.9375em;
     outline: none;
     padding: 1em 2.3em;
     text-align: center;
@@ -182,7 +182,7 @@ button {
    button:hover {
     color: var(--brown);
     background-color: var(--white);
-    transform: translateY(-2px);
+    transform: translateY(-0.125em);
    }
    button:active {
     box-shadow: none;
@@ -193,14 +193,14 @@ footer{
     position: relative;
     display: flex;
     align-items: center;
-    gap: 27px;
+    gap: 1.6875em;
     padding-bottom: 5%;
 }
 .button{
     background-color: var(--brown);
     border-radius: 50%;
-    width: 23px;
-    height: 23px;
+    width: 1.4375em;
+    height: 1.4375em;
     cursor: pointer;
     transition: 0.4s ease;
 }
@@ -209,39 +209,39 @@ footer{
 }
 @media (max-width:768px){
     body {
-        padding-left: 55px;
-        padding-right: 55px;
-        padding-top: 55px;
+        padding-left: 3.4375em;
+        padding-right: 3.4375em;
+        padding-top: 3.4375em;
     }
     .titulos{
-        font-size: 90px;
+        font-size: 5.625em;
     }
     img[alt~=bigmac]{
-        width: 769px;
-        height: 662px;
+        width: 48.0625em;
+        height: 41.375em;
     }
     .subtitulo{
-        font-size: 24px;
+        font-size: 1.5em;
     }
     @media (max-width:320px){
         body {
-            padding-left: 29px;
-            padding-right: 29px;
-            padding-top: 39px;
+            padding-left: 1.8125em;
+            padding-right: 1.8125em;
+            padding-top: 2.4375em;
         }
         .titulos{
-            font-size: 32px;
+            font-size: 2em;
         }
         img[alt~=bigmac]{
-            width: 478px;
-            height: 395px;
+            width: 29.875em;
+            height: 24.6875em;
         }
         .subtitulo{
-            font-size: 12px;
+            font-size: 0.75em;
         }
         .price{
-        font-size: 20px;
+        font-size: 1.25em;
         }
         #bigger{
-        font-size: 14px;
+        font-size: 0.875em;
         }
