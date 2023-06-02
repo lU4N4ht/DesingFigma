@@ -102,6 +102,7 @@ main{
 img[alt~=bigmac]{
     width: 875px;
     height: 733px;
+    filter: drop-shadow(0px 15px 50px rgba(0, 0, 0, 0.5));
 }
 #contentarea{
     padding-top: 5%;
@@ -206,4 +207,41 @@ footer{
 .button:hover {
     background-color: var(--yellow)
 }
-
+@media (max-width:768px){
+    body {
+        padding-left: 55px;
+        padding-right: 55px;
+        padding-top: 55px;
+    }
+    .titulos{
+        font-size: 90px;
+    }
+    img[alt~=bigmac]{
+        width: 769px;
+        height: 662px;
+    }
+    .subtitulo{
+        font-size: 24px;
+    }
+    @media (max-width:320px){
+        body {
+            padding-left: 29px;
+            padding-right: 29px;
+            padding-top: 39px;
+        }
+        .titulos{
+            font-size: 32px;
+        }
+        img[alt~=bigmac]{
+            width: 478px;
+            height: 395px;
+        }
+        .subtitulo{
+            font-size: 12px;
+        }
+        .price{
+        font-size: 20px;
+        }
+        #bigger{
+        font-size: 14px;
+        }
