@@ -214,43 +214,43 @@ button:active {
     body {
         padding-left: 0em;
         padding-right: 2em;
-        padding-top: 0.5em;
+        padding-top: 2em;
     }
     header{
-        gap: 0em;
-        padding-left: 2em;
+        gap: 3em;
+        padding-left: 4em;
         padding-right: 8.5em;
     }
     img[alt~=logoicone]{
-        width: 3em;
-        height: 3em;
+        width: 3.5em;
+        height: 3.5em;
     }
     .navbar{
         display: none;
     }
     .menu{
-        padding-top: 3.5%;
-        padding-left: 55%;
+        padding-top: 4%;
+        padding-left: 65%;
     }
     img[alt~=menu__icon]{
         display: flex;
-        width: 3em;
-        height: 3em;
+        width: 3.5em;
+        height: 3.5em;
     }
     img[alt~=bag]{
-        width: 3em;
-        height: 3em;
+        width: 3.5em;
+        height: 3.5em;
     }
     #imagearea{
-        padding-top: 10%;
+        padding-top: 5%;
     }
     img[alt~=bigmac__desktop]{
         display: none;
     }
     img[alt~=bigmac__responsive]{
         display: flex;
-        width: 21em;
-        height: 38em;
+        width: 22em;
+        height: 46em;
     }
     #contentarea{
         padding-left: 0%;
@@ -260,11 +260,11 @@ button:active {
         font-size: 1.4em; 
     }
     .titulos{
-        font-size: 4em;
+        font-size: 5em;
      }
      .prices{
-        padding-top: 20%;
-        padding-left: 15%;
+        padding-top: 15%;
+        padding-left: 35%;
     }
     .price{
         font-size: 2.5em;
@@ -274,24 +274,26 @@ button:active {
     }
     .botaoarea{
         padding-top: 15%;
+        padding-left: 40%;
     }
     button{
         width: 11em;
         height: 4em;
     }
     .endbutton{
-        padding-left: 20%;
+        padding-left: 50%;
         padding-bottom: 90%;
     }
 }
 @media (max-width:375px){
     body {
+        background-image: url(./img/bg__mobile.png);
         padding-left: 0em;
         padding-right: 2em;
         padding-top: 0.5em;
     }
     header{
-        gap: 0em;
+        gap: 2em;
         padding-left: 2em;
         padding-right: 8.5em;
     }
@@ -303,17 +305,20 @@ button:active {
         display: none;
     }
     .menu{
-        padding-top: 5%;
-        padding-left: 50%;
+        padding-top: 17%;
+        padding-left: 85%;
     }
     img[alt~=menu__icon]{
         display: flex;
-        width: 3em;
-        height: 3em;
+        width: 2em;
+        height: 2em;
+    }
+    .bag{
+        padding-top: 1.6em;
     }
     img[alt~=bag]{
-        width: 3em;
-        height: 3em;
+        width: 2em;
+        height: 2em;
     }
     #imagearea{
         padding-top: 0%;
@@ -323,12 +328,12 @@ button:active {
     }
     img[alt~=bigmac__responsive]{
         display: flex;
-        width: 15em;
-        height: 32em;
+        width: 11em;
+        height: 28em;
     }
     #contentarea{
-        padding-left: 0%;
-        padding-top: 15%;
+        padding-left: 2%;
+        padding-top: 20%;
     }
     .subtitulo{
         font-size: 0.75em; 
@@ -338,8 +343,8 @@ button:active {
      }
      .prices{
         gap: 1.5em;
-        padding-top: 20%;
-        padding-left: 15%;
+        padding-top: 30%;
+        padding-left: 50%;
     }
     .price{
         font-size: 1.5em;
@@ -348,14 +353,22 @@ button:active {
         font-size: 1em;
     }
     .botaoarea{
-        padding-top: 15%;
+        padding-top: 40%;
+        padding-left: 50%;
     }
     button{
         width: 11em;
         height: 4em;
+        text-align: center;
+        font-size: 0.7em;
+    }
+    .button{
+        width: 1.1em;
+        height: 1.1em;
     }
     .endbutton{
-        padding-left: 20%;
-        padding-bottom: 90%;
+        gap: 1.2em;
+        padding-left: 45%;
+        padding-bottom: 10%;
     }
 }
